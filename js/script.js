@@ -3,4 +3,4 @@ function myFunction() {
   alert("Megan Miranda: You successfully submitted your RSVP!");
 }
 function myFunction() {
-  document.getElementById("entrybutton");
+  document.getElementById("textoutput");
