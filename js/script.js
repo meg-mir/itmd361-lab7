@@ -1,9 +1,11 @@
-document.getElementById("entrybutton").addEventListener("click", alert);
-
-function myFunction() {
-  alert("Megan Miranda: You successfully submitted your RSVP!");
+function init(){
+//add your javascript between these two lines of code
+var entry = document.getElementById('entryinput');
+var button = document.getElementById('entrybutton');
+var txoutput = document.getElementById('textoutput');
+button.addEventListener('click', function(){
+alert(' Megan Miranda: ' + ev);
+txoutput.innerHTML = ev;
+});
 }
-
-function myFunction() {
-  document.getElementById("textoutput");
-}
+window.addEventListener('load', init);
