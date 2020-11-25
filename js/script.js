@@ -4,8 +4,8 @@ var entry = document.getElementById('entryinput');
 var button = document.getElementById('entrybutton');
 var txoutput = document.getElementById('textoutput');
 button.addEventListener('click', function(){
-alert(' Megan Miranda: ' + ev);
-txoutput.innerHTML = ev;
+alert(' Megan Miranda: ' + entry);
+txoutput.innerHTML = entry;
 });
 }
 window.addEventListener('load', init);
