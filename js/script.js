@@ -1,8 +1,11 @@
-function init(){
-  var x = document.getElementById("entrybutton"); 
-  x.addEventListener('click', function(){
-    alert("Megan Miranda: "+ document.getElementById("entryinput").value)
-    document.getElementById("textoutput").innerHTML = document.getElementById("entryinput").value;
-  });
-} 
-  window.addEventListener('load', init);
+function init() {
+//add your javascrip between these two lines of code
+  document.getElementById("entrybutton").addEventListener("click", f1);
+  function f1() {
+    var button = document.getElementById("entrybutton");
+    var entry = document.getElementById("entryinput").value;
+      alert(" Megan Miranda: " + entry);
+      document.getElementById("textoutput").innerhtml = document.getElementById("entryoutput").value;
+  }
+window.addEventListener('load', init);
+}
