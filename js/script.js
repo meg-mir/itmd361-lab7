@@ -5,7 +5,7 @@ function init() {
     var button = document.getElementById("entrybutton");
     var entry = document.getElementById("entryinput").value;
       alert(" Megan Miranda: " + entry);
-      document.getElementById("textoutput").innerhtml = document.getElementById("entryoutput").value;
+      document.getElementById("textoutput").innerhtml = entry;
   }
 window.addEventListener('load', init);
 }
